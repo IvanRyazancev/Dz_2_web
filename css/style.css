@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&family=Tektur&display=swap);
+
+@font-face{
+    font-family: Family New;
+    src: url(../fonts/NotoSerif_SemiCondensed-Medium.ttf);
+}
+
+body{
+    background-color: burlywood;
+    font-family: Tektur, sans-serif;
+    color: rgb(0, 38, 255);
+}
+
+.header{
+    padding: 50px 0;
+}
+
+.special_container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: right;    
+}
+
+.logo img{
+    vertical-align: bottom;
+    width: 150px;
+    height: 150px;
+}
+
+.main_title_header, .big_title{
+    font-family: Family New, sans-serif;
+    font-size: 30px;
+    align-items: right;
+}
+
+.menu{
+    margin-left: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.menu{    
+    display: flex;
+    list-style: none;
+    align-items: left;    
+}
+
+.menu_item{
+    margin-top: 10px;
+    margin-right: 250px;
+}
+
+.menu_item a{
+    font-size: 20px;
+    color: rgb(12, 12, 1);
+    text-decoration: type;
+    cursor: pointer;    
+}
+
+.menu_item a:hover{
+    border-bottom: 2px solid rgb(12, 12, 1);
+}
+
+
+
+/*Конец блока header*/
+/*Начало блока Section*/
+
+.main_content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main_content_info{
+    max-width: 1500px;
+}
+
+.content_title{
+    font-family: Family New,sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content_text{
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.main_content .special_container .card{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*Конец блока Section*/
+/*Начало блока Footer*/
+.footer{
+    padding: 20px 0;
+}
+
+.footer .special_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.footer .up_link{
+    font-size: 14px;
+    line-height: 20px;
+}
+/*Конец блока Footer*/
